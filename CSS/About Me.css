@@ -1,0 +1,179 @@
+*,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+.carceres-img  {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+.container1 {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+
+body {
+  font: 18px/20px Arial, Sans-Serif;
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.text1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.img2 {
+  margin-left: 320px;
+  margin-bottom: 20px;
+}
+
+.text3 {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.text-paragraphs1 {
+  padding: 0 40px 0px 40px;
+  margin-bottom: 40px;
+}
+
+.fotter1 {
+  background-color: dimgrey;
+  padding: 10px;
+}
+
+.font-fotter1 {
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.title1 {
+  margin-top: 15px;
+}
+
+.naruto-sasuke1 {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 40px;
+  
+}
+
+.nasa1 {
+  width: 100%;
+}
+
+.nasa-grid1 {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  column-gap: 40px;
+  margin-left: 154px;
+}
+
+.nasa1 {
+  height: 400px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+.naruto-sasuke2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.favorite-character {
+  background-color: tomato;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  justify-content: center;
+  width: 600px;
+  margin-left: 156px;
+}
+
+.favorite-character1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.america {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  object-position: middle;
+  border-radius: 150px 0 150px 0;
+}
+
+.america1 {
+  margin-left: 180px;
+  margin-bottom: 40px;
+}
+
+.text-10 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-9 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.back-first-page {
+  border: 1px solid #000;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(108, 117, 125);
+  vertical-align: middle;
+  font-weight: bold;  
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s;
+}
+
+.link-back:hover,
+.back-first-page:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.align-back {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.text-paragraphs2 {
+  padding: 0 40px 0px 40px;
+  margin-bottom: 100px;
+}
+
+.link-back {
+  text-decoration: none;
+  color: rgb(108, 117, 125);
+  background-color: white;
+}

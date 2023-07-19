@@ -1,0 +1,200 @@
+*,
+html {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  font: 18px/20px Arial, Sans-Serif;
+  background-color: #eaeaea;
+  color: #333;
+}
+
+p {
+  font-family: Arial;
+}
+.container {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+
+.header {
+  padding: 10px;
+}
+
+.unorder-list {
+  text-align: center;
+}
+
+
+.header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.header ul {
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-left: 40px;
+  margin-top: 30px;
+  text-shadow: 7px 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.header a {
+  text-decoration: none;
+  color: lightslategray;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: lightslategray;
+  color: white;
+}
+
+.profile-img {
+  height: 350px;
+  background-image: url(../Pictures/wp2090455.jpg);
+  background-size: cover;
+  background-position: 0 -109px;
+  border-bottom: 5px solid #808080;
+  border-top: 5px solid #808080;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.sasuke-name {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.text1 {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photos-sasuke {
+  font-size: 14px;
+  text-align: center;
+}
+
+.sasuke-profile {
+  text-decoration: none;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.sasuke-profile:hover {
+  opacity: 0.8;
+}
+
+.sasuke-profile:active {
+  opacity: 0.4;
+}
+
+.text-paragraphs {
+  padding: 0 40px 0px 40px;
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.lorem-style {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+.uchiha1 {
+  width: 100%
+}
+
+.uchiha2 {
+  width: 100%;
+  height: 156px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.uchiha-grid {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  column-gap: 20px;
+  margin-left: 210px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.sharingan1 {
+  Font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rinegan1 {
+  Font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.itachi-quote {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.qoute1 {
+  display: inline-block;
+  margin-left: 380px;
+  margin-bottom: 44px;
+}
+
+.itachi-quote {
+  margin-left: 5px;
+  line-height: 25px;
+}
+
+.quote-itachi {
+  margin-left: 5px;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+}
+
+.fotter {
+  background-color: dimgrey;
+  padding: 10px;
+}
+
+.font-fotter {
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
